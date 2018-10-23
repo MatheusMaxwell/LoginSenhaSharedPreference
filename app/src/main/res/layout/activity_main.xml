@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/tvLogin"
+        android:hint="Login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/border_edittext"
+        android:layout_width="300dp"
+        android:layout_height="60dp" />
+
+    <EditText
+        android:id="@+id/tvSenha"
+        android:hint="Senha"
+        android:layout_below="@id/tvLogin"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border_edittext"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_below="@id/tvSenha"
+        android:text="Entrar"
+        android:textSize="23dp"
+        android:background="@drawable/border_button"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="60dp" />
+
+</RelativeLayout>
